@@ -1,0 +1,45 @@
+.contact_form{
+    width: 500px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.inputField{
+    display: block;
+    font-family: 'Inter', sans-serif;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 30px;
+    background: transparent;
+    border: 1px solid #979797;
+    outline: none;
+    transition: 0.3s;
+    
+}
+.inputField:focus{
+    border: 1px solid #ffbd39;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+#areaField{
+    resize: none;
+}
+.sandBtn{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 15px 30px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+    color: #262626;
+    background-color: #ffbd39;
+    margin-top: 20px;
+}
+.sandBtn:hover{
+    background-color: #262626;
+    color: #ffbd39;
+} 

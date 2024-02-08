@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+           emailjs.init({
+             publicKey: "yT_-pDVTrVsOdNtN_",
+           });
+        })();
+     </script>
+
+</head>
+<body>
+    <div class="formTable">
+        <div class="contact_form">
+            <input id='fullNme' class='inputField' type="text" name='name' placeholder='Type your name' required />
+            <input id='email_id' class='inputField' type="email" name='email' placeholder='Type your email' required />
+            <textarea class='inputField' name="message" id="areaField" spellCheck="false"  placeholder='Comments' rows="7"></textarea>
+            <button onclick="handleSubmit()" type='submit' class='sandBtn'>Sand message</button>
+        </div>
+    </div>
+</body>
+</html>
